@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Saugat Dangol — Backend Developer portfolio. Python, Flask, SQL, and scalable server-side solutions." />
+  <title>Saugat Dangol | Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>SD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="section hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="hero-greeting animate-fade-up">Hello, I'm</p>
+      <h1 class="hero-name animate-fade-up delay-1">
+        Saugat <span class="text-gradient">Dangol</span>
+      </h1>
+      <h2 class="hero-title animate-fade-up delay-2">
+        <span class="typing-text" id="typingText"></span>
+        <span class="typing-cursor">|</span>
+      </h2>
+      <p class="hero-description animate-fade-up delay-3">
+        I build reliable, scalable backend systems with Python &amp; Flask — turning complex data
+        into clean APIs and meaningful insights. Passionate about writing maintainable code
+        that powers great user experiences.
+      </p>
+      <div class="hero-actions animate-fade-up delay-4">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats animate-fade-up delay-5">
+        <div class="stat">
+          <span class="stat-number" data-target="2">0</span>+
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="6">0</span>+
+          <span class="stat-label">Technologies</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="2">0</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to about">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+        <span>Scroll to explore</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Crafting Logic Behind the Interface</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <div class="about-card">
+            <div class="about-avatar">
+              <span>SD</span>
+            </div>
+            <div class="about-card-info">
+              <h3>Saugat Dangol</h3>
+              <p>Backend Developer · IT Student</p>
+              <div class="about-location">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                San Francisco, CA
+              </div>
+            </div>
+          </div>
+          <div class="about-floating-badge badge-1">
+            <span class="badge-icon">🐍</span> Python
+          </div>
+          <div class="about-floating-badge badge-2">
+            <span class="badge-icon">⚡</span> Flask
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <p class="about-lead">
+            Enthusiastic and detail-oriented Information Technology student with a strong
+            foundation in <strong>Python development</strong> and modern software engineering
+            practices. I specialize in building backend systems that are as robust as they are
+            elegant.
+          </p>
+          <p>
+            My strength lies in bridging the gap between aesthetic user interfaces and
+            functional backend logic. From designing RESTful APIs with Flask to managing
+            relational databases with SQL, I approach every project with a focus on clean
+            architecture, performance, and maintainability.
+          </p>
+          <p>
+            Currently pursuing my B.S. in Information Technology, I'm actively expanding my
+            expertise in data-driven applications, API design, and server-side development —
+            always looking for opportunities to build solutions that make a real impact.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">🎯</div>
+              <div>
+                <h4>Problem Solver</h4>
+                <p>Turning complex requirements into elegant backend solutions</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🔧</div>
+              <div>
+                <h4>Full-Stack Mindset</h4>
+                <p>Backend-first with strong UI/UX awareness</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">📈</div>
+              <div>
+                <h4>Continuous Learner</h4>
+                <p>Always exploring new tools, patterns, and best practices</p>
+              </div>
+            </div>
+          </div>
+          <a href="#skills" class="btn btn-primary about-cta">Explore My Skills →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">Technologies I Work With</h2>
+        <p class="section-subtitle">A toolkit built for building scalable, data-driven backend systems</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <span class="skill-icon">⚙️</span>
+            <h3>Backend Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="90">Python</span>
+            <span class="skill-tag" data-level="85">Flask</span>
+            <span class="skill-tag" data-level="80">REST APIs</span>
+            <span class="skill-tag" data-level="85">SQL</span>
+            <span class="skill-tag" data-level="75">Pandas</span>
+            <span class="skill-tag" data-level="70">NumPy</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Python / Flask</span><span>90%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>SQL &amp; Databases</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>API Design</span><span>80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal delay-1">
+          <div class="skill-category-header">
+            <span class="skill-icon">💻</span>
+            <h3>Languages &amp; Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Responsive Design</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>JavaScript</span><span>75%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>HTML / CSS</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal delay-2">
+          <div class="skill-category-header">
+            <span class="skill-icon">🛠️</span>
+            <h3>Tools &amp; Design</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git &amp; GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Adobe XD</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Netlify</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Git / Version Control</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>UI/UX Design</span><span>80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">Things I've Built</h2>
+        <p class="section-subtitle">Backend-focused projects with clean architecture and real-world impact</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-image">
+            <div class="project-icon">💰</div>
+            <div class="project-overlay">
+              <span class="project-type">Personal Project</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-date">Jan 2026</span>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>Figma</span>
+              </div>
+            </div>
+            <h3 class="project-title">SmartFinance Tracker</h3>
+            <p class="project-desc">
+              A personal finance application with a Python/Flask backend that calculates monthly
+              budgeting insights and generates data visualizations. Designed high-fidelity
+              mockups in Figma with a clean, minimalist design language.
+            </p>
+            <ul class="project-features">
+              <li>Flask backend for budget calculations &amp; analytics</li>
+              <li>Data graph visualization with Python libraries</li>
+              <li>Responsive UI for mobile and desktop layouts</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="View SmartFinance on GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.395-.135-.345-.72-1.395-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.515.12-3.15 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.635.24 2.85.12 3.15.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link" aria-label="View SmartFinance live demo">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-image project-image-alt">
+            <div class="project-icon">🍳</div>
+            <div class="project-overlay">
+              <span class="project-type">Academic Team Project</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-date">Nov 2025</span>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>REST API</span>
+                <span>UI/UX</span>
+              </div>
+            </div>
+            <h3 class="project-title">RecipeFinder Web Application</h3>
+            <p class="project-desc">
+              A recipe discovery platform with Python backend logic to parse and filter
+              API-driven ingredient datasets based on user preferences. Built with user
+              research and wireframing to streamline the search experience.
+            </p>
+            <ul class="project-features">
+              <li>Backend API integration for ingredient data parsing</li>
+              <li>Smart filtering based on user dietary preferences</li>
+              <li>User-centered wireframes and search flow design</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="View RecipeFinder on GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.395-.135-.345-.72-1.395-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.515.12-3.15 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.635.24 2.85.12 3.15.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link" aria-label="View RecipeFinder live demo">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+        <p class="section-subtitle">Hands-on experience in technical support and web maintenance</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">IT Department Technical Assistant</h3>
+                <p class="timeline-company">State Technical University — Campus Support</p>
+              </div>
+              <span class="timeline-date">Sep 2025 – Present</span>
+            </div>
+            <span class="timeline-badge">Part-Time</span>
+            <ul class="timeline-details">
+              <li>Providing technical support to staff and students for internal network troubleshooting, hardware setups, and software configurations</li>
+              <li>Performing web maintenance tasks, updating student portal document links using standard HTML/CSS formatting</li>
+              <li>Collaborating with the IT team to resolve technical issues efficiently and maintain campus infrastructure</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+      </div>
+      <div class="education-card reveal">
+        <div class="education-icon">🎓</div>
+        <div class="education-content">
+          <div class="education-header">
+            <div>
+              <h3>B.S. in Information Technology</h3>
+              <p class="education-school">State Technical University</p>
+            </div>
+            <span class="education-date">Expected May 2027</span>
+          </div>
+          <p class="education-desc">
+            Building a strong foundation in software development, database systems, and
+            human-computer interaction — with a focus on backend engineering and data-driven applications.
+          </p>
+          <div class="education-courses">
+            <h4>Relevant Coursework</h4>
+            <div class="course-tags">
+              <span>Data Structures</span>
+              <span>Web Development</span>
+              <span>Human-Computer Interaction</span>
+              <span>Database Management Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section certificates">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Certificates</span>
+        <h2 class="section-title">Professional Certifications</h2>
+        <p class="section-subtitle">Validated expertise from industry-leading programs</p>
+      </div>
+      <div class="certificates-grid">
+        <div class="certificate-card reveal">
+          <div class="certificate-badge">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="certificate-content">
+            <span class="certificate-year">2025</span>
+            <h3>Google UX Design Professional Certificate</h3>
+            <p class="certificate-issuer">Issued by Coursera</p>
+            <p class="certificate-desc">Comprehensive UX design training covering user research, wireframing, prototyping, and usability testing.</p>
+          </div>
+        </div>
+        <div class="certificate-card reveal delay-1">
+          <div class="certificate-badge certificate-badge-python">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="certificate-content">
+            <span class="certificate-year">2025</span>
+            <h3>Python for Everybody Specialization</h3>
+            <p class="certificate-issuer">University of Michigan via Coursera</p>
+            <p class="certificate-desc">In-depth Python programming covering data structures, web data access, databases, and capstone projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Build Something Together</h2>
+        <p class="section-subtitle">Have a project in mind or want to connect? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-card">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:saugatdangol@example.com">saugatdangol@example.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+15550192834">+1 (555) 019-2834</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>San Francisco, CA</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.395-.135-.345-.72-1.395-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.515.12-3.15 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.635.24 2.85.12 3.15.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div>
+                <h4>GitHub</h4>
+                <a href="https://github.com/saugatdangol" target="_blank" rel="noopener">github.com/saugatdangol</a>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/saugatdangol" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.395-.135-.345-.72-1.395-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.515.12-3.15 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.635.24 2.85.12 3.15.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="mailto:saugatdangol@example.com" class="social-link" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Saugat Dangol. Built with passion for backend development.</p>
+      <a href="#home" class="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
